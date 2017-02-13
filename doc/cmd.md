@@ -92,3 +92,9 @@ You can run it with just a Java JRE 8 installed:
 ```bash
 java -jar ./target/demoapp.jar server ./hello-world.yml
 ```
+
+
+# Récupération clé privé
+```
+cat ~/.vagrant.d/insecure_private_key 
+```
