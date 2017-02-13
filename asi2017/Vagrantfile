@@ -1,0 +1,4 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "asi"
+  config.vm.box_url = "./alpine2docker-1.0.0.box"
+end
